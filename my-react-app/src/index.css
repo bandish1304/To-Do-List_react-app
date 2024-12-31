@@ -1,0 +1,45 @@
+.To-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1{
+  font-family: 4rem;
+
+}
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-button{
+  background-color: hsl(120, 62%, 46%);
+}
+.add-button:hoover{
+  background-color: hsl(120, 62%, 36%);
+}
+.Delete-Btn{
+  background-color: hsl(0, 62%, 46%);
+}
+.Delete-Btn:hoover{
+  background-color: hsl(0, 62%, 36%);
+}
+.Up-Btn{
+  background-color: hsl(300, 62%, 46%);
+}
+.Up-Btn:hoover{
+  background-color:  hsl(300, 62%, 36%);
+}
+.Down-Btn{
+  background-color: hsl(243, 62%, 46%);
+}
+.Down-Btn:hoover{
+  background-color: hsl(243, 62%, 36%);
+}
